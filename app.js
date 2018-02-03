@@ -4,7 +4,7 @@ var chalk = require('chalk');
 var http = require('http');
 
 // Init WS SECRET
-var WS_SECRET;
+var WS_SECRET = "eth-net-stats-has-a-secret";
 
 if( !_.isUndefined(process.env.WS_SECRET) && !_.isNull(process.env.WS_SECRET) )
 {
